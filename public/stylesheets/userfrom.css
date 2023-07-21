@@ -1,0 +1,60 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(https://somewebsite.com/path/to/font.woff); 
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(86, 109, 109); */
+  
+  }
+  body h3{
+    text-align: center;
+    padding: 1vw;
+    font-size: 2vw;
+  }
+
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="number"],
+  .form-container input[type="String"],
+  
+  .form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .form-container input[type="submit"],
+  .form-container input[type="reset"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
